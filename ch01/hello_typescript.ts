@@ -1,5 +1,3 @@
-function calculate(a: number, b: number, c: number) {
-  return a * b + c;
-}
+var fullName: string = `Joseph Borne`;
 
-console.log(`calculate() = ${calculate(3, 2, 1)}`);
+console.log(`My full name is: ${fullName}`);
