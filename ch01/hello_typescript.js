@@ -1,11 +1,4 @@
-"use strict";
-var myBoolean = true;
-var myNum = 23;
-var myString = "james";
-var myArry = ["zero", "first", "second", "third"];
-myBoolean = myNum === 456;
-console.log(`my boolean = ${myBoolean}`);
-myArry = [myNum.toString(), `5678`];
-console.log(`myArray = ${myArry}`);
-myNum = myArry.length;
-console.log(`myNum = ${myNum}`);
+function calculate(a, b, c) {
+    return a * b + c;
+}
+console.log("calculate() = ".concat(calculate(3, 2, 1)));
