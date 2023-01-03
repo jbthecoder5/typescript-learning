@@ -1,2 +1,3 @@
 var fullName = "Joseph Borne";
-console.log("My full name is: ".concat(fullName));
+var age = 32;
+console.log("My full name is: ".concat(fullName) + " and I'm ".concat(age, " years old"));
